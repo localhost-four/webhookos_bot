@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Мета-теги SEO для обоих языков -->
+    <meta name="description"
+        content="@webhookos_bot is your corporate tracker for managing communities, groups, and teams. Automate tasks with two taps, track analytics, and streamline workflows in Telegram.">
+    <meta name="keywords"
+        content="webhookos_bot, corporate tracker, task management, community management, group tracking, team management, analytics, tickets, Telegram bot, productivity, automation, corporate tools, business management">
+    <meta name="author" content="Null-X Roman @onlynet0 @notevm">
+    
+    <!-- Open Graph для социальных сетей -->
+    <meta property="og:image" content="int.gif">
+    <meta property="og:url" content="https://t.me/webhookos_bot">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="@webhookos_bot">
+    
+    <!-- Мета-теги для Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@webhookos_bot - Corporate Community Tracker">
+    <meta name="twitter:description"
+        content="Manage your corporate communities with @webhookos_bot. Automate tracking, analyze performance, and streamline workflows in Telegram with just two taps.">
+    <meta name="twitter:image" content="int.gif">
+    <meta name="twitter:url" content="https://t.me/webhookos_bot">
+    
+    <!-- Robot Follow и дополнительные мета-теги -->
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="en">
+    <meta name="rating" content="General">
+    <meta name="theme-color" content="#1e3c72">
+    
+    <!-- Защита от XSS с помощью Content Security Policy (CSP) -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' https:; style-src 'self' https: 'unsafe-inline'; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; img-src 'self' data: https:; font-src 'self' https: data:;">
+
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
+    <meta http-equiv="Access-Control-Allow-Origin" content="self">
+    <meta http-equiv="Permissions-Policy"
+        content="web-share=(), midi=(), gyroscope=(), fullscreen=(), document-domain=(), notifications=(self), popups=(self)">
+    <meta name="referrer" content="no-referrer">
+    <meta name="HandheldFriendly" content="True">
+    
+    <!-- Иконки для мобильных устройств -->
+    <link rel="icon" href="int.gif">
+    <link rel="apple-touch-icon" href="int.gif">
+    <link rel="icon" sizes="192x192" href="int.gif">
+    <link rel="icon" sizes="512x512" href="int.gif">
+    
+    <!-- Манифест для PWA -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Подключение шрифтов -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    
+    <!-- Yandex.Metrika и другие внешние ресурсы -->
+    <script async src="translations.js"></script>
+    <script async src="https://mc.yandex.ru/metrika/tag.js"></script>
+    <script>window.yaContextCb = window.yaContextCb || [];</script>
+    <link rel="preconnect" href="https://yastatic.net">
+    <link rel="preconnect" href="https://avatars.mds.yandex.net">
+    <link rel="preconnect" href="https://mc.yandex.ru">
+    <link rel="preconnect" href="https://ads.adfox.ru">
+    
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html" height="0" width="0" style="display:none;visibility:hidden"
+            id="tag-manager"></iframe>
+    </noscript>
+    
+
+    <!-- Основные мета-теги -->
+    <meta name="description"
+        content="About @webhookos_bot - Learn more about our Telegram bot for CTF enthusiasts and cybersecurity lovers">
+    <meta name="keywords"
+        content="webhookos_bot, about project, bot features, development team, telegram bot, CTF, cybersecurity">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="About @webhookos_bot">
+    <meta property="og:description"
+        content="Detailed information about the features and capabilities of @webhookos_bot">
+
+    <title>About @webhookos_bot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="add-on.css">
+</head>
+
+<body>
+    <div class="parallax-background"></div>
+    <header class="header">
+        <div class="header-left">
+            <img src="int.gif" alt="Logo" class="logo-img">
+            <div class="logo">
+                <a href="index.html" class="bot-link">@webhookos_bot</a>
+                <span class="logo-subtitle">Your CTF Companion</span>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#tutorial" class="nav-link">Tutorial</a>
+            <a href="#team" class="nav-link">Team</a>
+            <a href="#updates" class="nav-link">Updates</a>
+        </nav>
+        <div class="header-controls">
+            <div class="lang-switch">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="ru">RU</button>
+            </div>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider">
+                        <svg class="sun" viewBox="0 0 24 24">
+                            <path
+                                d="M12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3z" />
+                        </svg>
+                        <svg class="moon" viewBox="0 0 24 24">
+                            <path d="M12 3c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5s-.5.22-.5.5v1c0 .28.22.5.5.5z" />
+                        </svg>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <div class="ticker">
+        <div class="ticker-content">
+            <span data-translate="organizers">Organizers</span>
+            <span data-translate="admin">Admin</span>
+            <span data-translate="feed">Feed</span>
+            <span data-translate="order">Order</span>
+            <span data-translate="users">Users</span>
+            <span data-translate="groups">Groups</span>
+            <span data-translate="analytics">Analytics</span>
+            <span data-translate="tickets">Tickets</span>
+            <span data-translate="automation">Automation</span>
+            <span data-translate="management">Management</span>
+            <span data-translate="productivity">Productivity</span>
+            <span>Doc</span>
+            <span>Owner</span>
+            <span>Learning</span>
+            <span>Transactions</span>
+            <span>Product Management</span>
+            <span>Product Development</span>
+            <span>Product Design</span>
+            <span>Product Launch</span>
+            <span>Product Roadmap</span>
+            <span>Product Feedback</span>
+            <span>Product Marketing</span>
+            <span>Sales Strategy</span>
+            <span>Pricing Strategy</span>
+            <span>Inventory Management</span>
+            <span>Promotions</span>
+            <span>Customer Support</span>
+            <span>Customer Feedback</span>
+            <span>Market Research</span>
+            <span>Competitor Analysis</span>
+            <span>Brand Positioning</span>
+            <span>Target Audience</span>
+            <span>Sales Funnel</span>
+            <span>Lead Generation</span>
+            <span>Customer Journey Mapping</span>
+            <span>Webhooks</span>
+            <span>APIs</span>
+            <span>Documentation</span>
+            <span>Testing and QA</span>
+            <span>Deployment</span>
+            <span>Content Management</span>
+            <span>SEO Optimization</span>
+            <span>Social Media Management</span>
+            <span>Branding</span>
+            <span>Training Programs</span>
+            <span>Customer Relationship Management</span>
+            <span>Risk Management</span>
+            <span>Compliance Audits</span>
+            <span>Networking Opportunities</span>
+            <span>Partnerships</span>
+            <span>Updates and Releases</span>
+            <span>Feedback Loop</span>
+            <span>Performance Metrics</span>
+        </div>
+    </div>
+
+    <main class="timeline">
+        <section id="intro" class="slide">
+            <div class="content">
+                <div class="text-block">
+                    <h1 class="glass-text" data-lang-key="intro-title">Hello Everyone!</h1>
+                    <p class="glass-text" data-lang-key="intro-text">
+                        We are excited to introduce our new Telegram bot designed to help you find chats and communities
+                        — the perfect assistant for everyone passionate about CTF competitions, cybersecurity, or simply
+                        looking for like-minded people to connect and grow with!
+                        (Honestly, we’ve just started building this system to have some fun and see how effective a
+                        small garage startup on Docker can be)
+                    </p>
+                    <a href="https://t.me/webhookos_bot?start=1586420654" class="tg-btn">
+                        <img src="int.gif" alt="Telegram" class="btn-icon">
+                        <span data-lang-key="start-btn">Start Now</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="slide">
+            <div class="content">
+                <div class="text-block">
+                    <h2 class="glass-text" data-lang-key="features-title">What Our Bot Can Do</h2>
+                    <ul class="feature-list">
+                        <li data-lang-key="feature-1">Active Chats Feed: Discover a list of current communities to find
+                            a team or discuss tasks.</li>
+                        <li data-lang-key="feature-2">Recommendation System: Get tailored group and team suggestions
+                            based on your interests (e.g., crypto or reverse engineering).</li>
+                        <li data-lang-key="feature-3">Favorite Chats Collection: Save your preferred groups for quick
+                            access anytime.</li>
+                        <li data-lang-key="feature-4">Auto-Join Communities: Instantly join selected chats after
+                            registration.</li>
+                        <li data-lang-key="feature-5">Event Notifications: Stay updated on new CTF events, chat updates,
+                            or team changes.</li>
+                        <li data-lang-key="feature-6">The idea is multifunctional and can be used anywhere. Share your events today.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="tutorial" class="slide">
+            <div class="content">
+                <div class="text-block">
+                    <h2 class="glass-text" data-lang-key="tutorial-title">How to Get Started</h2>
+                    <div class="tutorial-slider">
+                        <div class="tutorial-slide active">
+                            <div class="tutorial-content">
+                                <h3 class="glass-text" data-lang-key="tutorial-step-1-title">Step 1: Get Started</h3>
+                                <p data-lang-key="tutorial-step-1-text">Find @webhookos_bot in Telegram and press Start.
+                                </p>
+                                <img src="find.gif" alt="Start Bot" class="tutorial-image">
+                            </div>
+                        </div>
+                        <div class="tutorial-slide">
+                            <div class="tutorial-content">
+                                <h3 class="glass-text" data-lang-key="tutorial-step-2-title">Step 2: Setup</h3>
+                                <p data-lang-key="tutorial-step-2-text">Choose your account type and configure basic
+                                    settings.</p>
+                                <img src="invite.gif" alt="Setup" class="tutorial-image">
+                            </div>
+                        </div>
+                        <div class="tutorial-slide">
+                            <div class="tutorial-content">
+                                <h3 class="glass-text" data-lang-key="tutorial-step-3-title">Step 3: Manage</h3>
+                                <p data-lang-key="tutorial-step-3-text">Start managing your groups and channels
+                                    effortlessly.</p>
+                                <img src="cox.gif" alt="Management" class="tutorial-image">
+                            </div>
+                        </div>
+                        <div class="slider-nav">
+                            <button class="slider-btn prev" data-lang-key="prev-btn">Previous</button>
+                            <button class="slider-btn next" data-lang-key="next-btn">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="slide">
+            <div class="content">
+                <div class="text-block">
+                    <h2 class="glass-text" data-lang-key="team-title">Our Team</h2>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <img src="photo1.jpg" alt="Roman" class="member-avatar">
+                            <h3 class="glass-text">Roman</h3>
+                            <p data-lang-key="team-founder">Small beginner developer in the IT-specialty, working on improving the project and introducing more people into it. Developed this.</p>
+                            <a href="https://t.me/onlynet0" class="bot-link">@onlynet0</a>
+                        </div>
+                        <div class="team-member">
+                            <img src="photo2.jpg" alt="Олег" class="member-avatar">
+                            <h3 class="glass-text">Олег</h3>
+                            <p data-lang-key="team-developer">The lead developer, who is also the host of our sites and work, essentially helps with promotion and work with containers.</p>
+                            <a href="https://t.me/Oleh_C" class="bot-link">@Oleh_C</a>
+                        </div>
+                        <div class="team-member">
+                            <img src="photo3.jpg" alt="Самир" class="member-avatar">
+                            <h3 class="glass-text">Самир</h3>
+                            <p data-lang-key="team-lid">Our great security tester and developer, working on the content itself.</p>
+                            <a href="https://t.me/DRAK0NN" class="bot-link">@DRAK0NN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="updates" class="slide">
+            <div class="content">
+                <div class="text-block">
+                    <h2 class="glass-text" data-lang-key="updates-title">Project Updates</h2>
+                    <p data-lang-key="updates-text">
+                        We’re thrilled to share the latest improvements to @webhookos_bot! Our service is now more
+                        efficient, reliable, and user-friendly. Bet it won’t crash now! 🥳
+                    </p>
+                    <ul class="feature-list">
+                        <li data-lang-key="update-1">Full integration and synchronization with Telegram.</li>
+                        <li data-lang-key="update-2">Optimized database performance for faster responses.</li>
+                        <li data-lang-key="update-3">Improved message processing to reduce API delays.</li>
+                        <li data-lang-key="update-4">Fast asynchronous data handling for seamless multitasking.</li>
+                        <li data-lang-key="update-5">Self-sustaining automation for long-term stability.</li>
+                        <li data-lang-key="update-6">Simplified design with added features like images and metadata.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="idea" class="slide">
+            <div class="content">
+                <div class="text-block">
+                    <h2 class="glass-text" data-lang-key="idea-title">Project Idea</h2>
+                    <p data-lang-key="idea-text">
+                        We recently surveyed the CTF community: "Do you have a team?" The results showed common
+                        challenges: some lack specialists (e.g., cryptography experts), others are beginners seeking
+                        teammates, and many want to stay updated on events. That’s why we created this garage startup in
+                        a week — a simple solution to connect you with teams and chats in Telegram, especially when
+                        competition deadlines loom and you’re too lazy to search manually!
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 <a href="https://t.me/webhookos_bot" class="bot-link">@webhookos_bot</a> | <span
+                data-lang-key="footer-text">Made with ❤️</span></p>
+    </footer>
+
+    <button class="scroll-top-btn">
+        <svg viewBox="0 0 24 24">
+            <path d="M12 4l-8 8h6v8h4v-8h6l-8-8z" />
+        </svg>
+    </button>
+
+    <script src="add-on.js"></script>
+    <!-- <script src="index-script.js"></script> -->
+</body>
+
+</html>
